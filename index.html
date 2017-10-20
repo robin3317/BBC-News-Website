@@ -19,10 +19,10 @@
                 width: 100px;
                 float: left;
             }
-            .topbar_section {
+            .topbarSection {
                 float: left;
                 border-left: 1px #cccccc solid;
-                height: 100%;
+                height: 45px;
             }
             #signinImage {
                 margin: 8px;
@@ -35,6 +35,12 @@
                 top: 15px;
                 padding-right: 50px;
             }
+            .topbarMenu {
+                font-weight: bold;
+                font-size: 95%;
+                padding: 15px;
+                height: 15px;
+            }
         </style>
     </head>
     <body>
@@ -43,9 +49,32 @@
             <img id="logo" src="images/logo.png" alt="logo">
 
             <!--signin section-->
-            <div id="signin_div" class="topbar_section">
+            <div id="signinDiv" class="topbarSection">
                 <img id="signinImage" src="images/signin.png" alt="signin">
                 <span id="signinText"> Sign in</span>
+            </div>
+
+            <!--others section-->
+            <div class="topbarSection topbarMenu">
+                News
+            </div>
+            <div class="topbarSection topbarMenu">
+                    Sport
+            </div>
+            <div class="topbarSection topbarMenu">
+                    Weather
+            </div>
+            <div class="topbarSection topbarMenu">
+                    Shop
+            </div>
+            <div class="topbarSection topbarMenu">
+                    Earth
+            </div>
+            <div class="topbarSection topbarMenu">
+                    Travel
+            </div>
+            <div class="topbarSection topbarMenu">
+                    More
             </div>
         </div>
     </body>
