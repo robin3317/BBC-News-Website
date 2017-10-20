@@ -51,9 +51,21 @@
             }
             #moreArrow {
                 margin-left: 5px;
-                position: relative;
-                top: 5px;
-                left: 15px;
+            }
+            #searchBar {
+                background-color: #E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size: 16px;
+                padding: 3px;
+                margin: 9px 0 9px 9px;
+                float: left;
+            }
+            #searchIcon {
+                width: 20px;
+                background-color: #E4E4E4;
+                margin: 9px 9px 9px 0;
+                padding: 2px;
             }
         </style>
     </head>
@@ -90,6 +102,12 @@
             <div class="topbarSection topbarMenuMore">
                     More
                     <img id="moreArrow" src="images/more.png" alt="more">
+            </div>
+
+            <!--Search section-->
+            <div class="topbarSection">
+                <input id="searchBar" type="text" value="Search">
+                <img id="searchIcon" src="images/search.png" alt="search">
             </div>
         </div>
     </body>
