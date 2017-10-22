@@ -118,7 +118,10 @@
                 margin: 0 auto;
             }
             #mainArticle {
-
+                width: 60%;
+                float: left;
+                border-right: 1px solid #cccccc;
+                padding-right: 20px;
             }
             h2 {
                 margin-left: 145px;
@@ -138,8 +141,10 @@
                 color: #5a5a5a;
                 margin-top: 5px;
                 margin-left: 145px;
+                margin-right: 17px;
                 width: 260px;
                 float: left;
+                font-size: 15px;
             }
             #articleSummary img {
                 height: 27px;
@@ -150,14 +155,27 @@
                 text-decoration: none;
                 color: #5a5a5a;
             }
-            #articleTimer {
-                font-size: 15px;
-            }
             #articleLink {
-                font-size: 15px;
+                color: #a91717;
             }
             #articleLink a:hover {
                 color: #1167A8;
+            }
+            #articleImage {
+                margin-left: 35px;
+            }
+            #articleHr {
+                width: 46px;
+                margin-left: 0px;
+                background-color: #a91717;
+                height: 1px;
+                border: none;
+            }
+            #moreLink a:hover {
+                color: #1167A8;
+            }
+            .moreLinkC {
+                margin-top: -6px;
             }
         </style>
     </head>
@@ -257,17 +275,31 @@
 
         <!--page container part/ Article part-->
         <div class="clear"></div>
+        <!--this is our whole page-->
         <div id="pageContainer">
             <h2>Technology</h2>
+            <!--this is our article container which will be divided into more part-->
             <div id="articleContainer">
+                <!--article part-->
                 <div id="mainArticle">
                     <h1><a href="">Facebook post creates Israel false alarm</a></h1>
                 
                     <div id="articleSummary">
-                        <a href="">post saying "good morning" in Arabic was reportedly 
+                        <a href="">A post saying "good morning" in Arabic was reportedly 
                         mistranslated to say "attack them" in Hebrew.</a><br>
                         <a id="articleTimer" href=""><img src="images/timer.png"> 7 hours ago |</a>
                         <span id="articleLink"><a href=""> Middle East</a></span>
+                        <hr id="articleHr">
+                        <span id="moreLink">
+                            <p><a href="">Language apps are lost in translation</a></p>
+                            <p class="moreLinkC"><a href="">Google Translate given grammar boost BBC News</a></p>
+                            <p class="moreLinkC"><a href="">Google Translate 'turns interpreter'</a></p>
+                            <p class="moreLinkC"><a href="">Pardon- Testing new Google Translate - BBC News</a></p>
+                        </span>
+                    </div>
+
+                    <div id="articleImage">
+                        <img src="images/facebook.png">
                     </div>
                 </div>
             </div>
