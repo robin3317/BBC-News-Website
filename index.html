@@ -114,17 +114,17 @@
                 float: right;
             }
             #pageContainer {
-                width: 100%;
+                width: 1300px;
                 margin: 0 auto;
             }
             #mainArticle {
-                width: 60%;
+                width: 700px;
                 float: left;
                 border-right: 1px solid #cccccc;
                 padding-right: 20px;
             }
             h2 {
-                margin-left: 145px;
+                margin-left: 120px;
                 font-weight: normal;
                 font-size: 20px;
                 border-bottom: 3px solid #a91717;
@@ -133,6 +133,8 @@
             h1 a {
                 color: black;
                 text-decoration: none;
+                margin-left: -23px;
+                float: left;
             }
             h1 a:hover {
                 color: #1167A8;
@@ -140,7 +142,7 @@
             #articleSummary {
                 color: #5a5a5a;
                 margin-top: 5px;
-                margin-left: 145px;
+                margin-left: 120px;
                 margin-right: 17px;
                 width: 260px;
                 float: left;
@@ -161,8 +163,9 @@
             #articleLink a:hover {
                 color: #1167A8;
             }
-            #articleImage {
-                margin-left: 35px;
+            #articleImage img {
+                width: 300;
+                height: 190;
             }
             #articleHr {
                 width: 46px;
@@ -178,13 +181,43 @@
                 margin-top: -6px;
             }
             #rightFlow {
-                position: relative;
-                left: 18px;
+                width: 370px;
+                float: left;
+                margin-left: 40px;
             }
             #rightFlow h3{
                 font-weight: normal;
-                font-size: 25px;
+                font-size: 22px;
             }
+            .sliderPic {
+                float: left;
+                margin-right: 15px;
+            }
+            .sliderTitle {
+                text-decoration: none;
+                color: black;
+                font-size: 16px;
+            }
+            .sliderTimer {
+                position: relative;
+                top: -15px;
+                left: -4px;
+            }
+            .sliderDate {
+                text-decoration: none;
+                font-size: 12px;
+                color: #5a5a5a;
+                position: relative;
+                top: -20px;
+            }
+            .slider a:hover {
+                color: #1167ab;
+            }
+            #extra {
+                width: 200px;
+                float: right;
+            }
+            
         </style>
     </head>
     <body>
@@ -295,8 +328,8 @@
                     <div id="articleSummary">
                         <a href="">A post saying "good morning" in Arabic was reportedly 
                         mistranslated to say "attack them" in Hebrew.</a><br>
-                        <a id="articleTimer" href=""><img src="images/timer.png"> 7 hours ago |</a>
-                        <span id="articleLink"><a href=""> Middle East</a></span>
+                        <a id="articleTimer" href="http://"><img src="images/timer.png"> 7 hours ago |</a>
+                        <span id="articleLink"><a href="http://"> Middle East</a></span>
                         <hr id="articleHr">
                         <span id="moreLink">
                             <p><a href="">Language apps are lost in translation</a></p>
@@ -313,8 +346,44 @@
 
                 <div id="rightFlow">
                     <h3>Watch/Listen</h2>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider1.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>Class A drugs listed on Craigslist in UK</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">23 October 2017 | England</a>
+                    </div>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider2.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>3D-printed concrete cycle bridge opens</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">20 October 2017 | Technology</a>
+                    </div>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider3.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>Car seat with inbuilt airbag launched</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">18 October 2017 | Berkshire</a>
+                    </div>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider4.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>Drones used to spot sharks in Australia</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">17 October 2017 | Australia</a>
+                    </div>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider5.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>Wi-fi security flaw Krack explained</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">16 October 2017 | Technology</a>
+                    </div>
+                    <div class="slider">
+                        <a class="sliderPic" href="http://"><img src="images/slider6.png" alt="slider1"></a>
+                        <a class="sliderTitle" href="http://"><h4>How a girl who can't speak got a unique voice</h4></a>
+                        <a class="sliderTimer" href="http://"><img src="images/timerfinal.png" alt="timer"></a>
+                        <a class="sliderDate" href="http://">16 October 2017 | Magazine</a>
+                    </div>
+                    
                 </div>
-
             </div>
             
         </div>
