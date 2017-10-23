@@ -221,3 +221,28 @@ h1 a:hover {
 .slider a:hover {
     color: #1167ab;
 }
+#sub3 {
+    float: left;
+    width: 700px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.subThree {
+    float: left;
+    width: 182px;
+    border-right: 1px solid #DBDBDB;
+    padding-right: 10px;
+}
+.subThreeExtra {
+    float: left;
+    width: 182px;
+    margin-left: 12px;
+}
+.subImage img {
+    width: 180px;
+}
+.subTitle {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
