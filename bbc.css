@@ -246,3 +246,37 @@ h1 a:hover {
     color: black;
     font-size: 15px;
 }
+.subThree a:hover {
+    color:  #1167A8;
+}
+.subPara {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 14px;
+    float: left;
+}
+.subTimer {
+    float: left;
+    margin-top: 5px;
+}
+.subDate {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 12px;
+    float: left;
+    margin-top: 9px;
+}
+#subArticleHr {
+    width: 46px;
+    background-color: #a91717;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: -20px;
+}
+.subEnd {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
