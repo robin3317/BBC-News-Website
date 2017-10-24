@@ -280,3 +280,49 @@ h1 a:hover {
     color: black;
     font-size: 15px;
 }
+.portion {
+    text-decoration: none;
+    color: black;
+}
+#portion1 {
+    float: left;
+    margin-top: -18px;
+}
+#portion2 {
+    float: left;
+    margin-top: -8px;
+}
+#portion3 {
+    float: left;
+    margin-top: -8px;
+}
+.endTimer {
+    float: left;
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+.endDate {
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -8px;
+    color: #5a5a5a;
+}
+#endHr {
+    width: 169px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+}
+.anotherPortion a:hover {
+    color: #1167A8;
+}
+#endHr2 {
+    width: 590px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
