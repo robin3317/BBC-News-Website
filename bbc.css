@@ -326,3 +326,46 @@ h1 a:hover {
     margin-left: 120px;
     margin-top: 20px;
 }
+#moreHeading {
+    float: left;
+    margin-left: 120px;
+}
+#moreHeadingLeft {
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+}
+#moreHeadingRight {
+    width: 287px;
+    float: right;
+    margin-left: 13px;    
+}
+.moreHeadingLink {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    float: left;
+}
+.moreHeadingLink2 {
+    text-decoration: none;
+    float: left;
+    color: #5a5a5a;
+    font-size: 13px;
+    margin-top: -16px;
+    margin-left: 25px;
+}
+#moreHeadingTimer {
+    margin-top: -20px;
+    float: left;
+}
+#moreHeading a:hover {
+    color: #1167A8;
+}
+#moreHeadingLeftHr {
+    width: 285px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-top: 10px;
+}
