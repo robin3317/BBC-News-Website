@@ -369,3 +369,25 @@ h1 a:hover {
     float: left;
     margin-top: 10px;
 }
+#shareWithBBC {
+    margin-left: 30px;
+    float: left;
+}
+#shareWithBBC h3 {
+    margin-left: 0px;
+}
+#shareWithBBC a {
+    text-decoration: none;
+    color: black;
+}
+#shareWithBBC a:hover {
+    color: #1167A8;
+}
+#shareWithBBC img {
+    float: left;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.shareWithBBCBold {
+    font-weight: bold;
+}
