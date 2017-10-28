@@ -398,3 +398,37 @@ h1 a:hover {
 .shareWithBBCBold {
     font-weight: bold;
 }
+#followUs {
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+}
+#followUsPara {
+    color: black;
+    font-size: 20px;
+}
+#facebook {
+   float: left;
+   width: 170px;
+   height: 30px;
+   background: #f7f7f7;
+   margin-right: 6px;
+   margin-bottom: 20px;
+   padding: 12px;
+}
+#twitter {
+    float: left;
+    width: 170px;
+    height: 30px;
+    background: #f7f7f7;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+#rss {
+    float: left;
+    width: 380px;
+    height: 30px;
+    background: #f7f7f7;
+    padding: 10px;
+}
