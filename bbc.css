@@ -409,26 +409,49 @@ h1 a:hover {
 }
 #facebook {
    float: left;
-   width: 170px;
-   height: 30px;
+   width: 150px;
+   height: 20px;
    background: #f7f7f7;
    margin-right: 6px;
    margin-bottom: 20px;
    padding: 12px;
+   border-bottom: 4px solid #3C5A98;
+}
+.ftLink a {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    left: 45px;
+    color: black;
+}
+.ftLink a:hover {
+    color: #1167ab;
 }
 #twitter {
     float: left;
-    width: 170px;
-    height: 30px;
+    width: 150px;
+    height: 20px;
     background: #f7f7f7;
     margin-left: 6px;
     margin-bottom: 20px;
     padding: 12px;
+    border-bottom: 4px solid #47C7FA;
 }
 #rss {
     float: left;
-    width: 380px;
-    height: 30px;
+    width: 340px;
+    height: 20px;
     background: #f7f7f7;
     padding: 10px;
+    border-bottom: 4px solid black;
+}
+#rss a {
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 130px;
+    color: black;
+}
+#rss a:hover {
+    color: #1167ab;
 }
