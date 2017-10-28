@@ -20,6 +20,10 @@ body {
     border-left: 1px #cccccc solid;
     height: 45px;
 }
+.topbarSection a {
+    text-decoration: none;
+    color: black;
+}
 #signinImage {
     margin: 8px;
     float: left;
