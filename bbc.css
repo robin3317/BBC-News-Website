@@ -96,9 +96,12 @@ h1 {
     padding-left: 10px;
 }
 .container2menu {
-    color: white;
     margin: 10px 10px 0 10px;
     
+}
+.container2menu a {
+    text-decoration: none;
+    color: white;
 }
 .home {
     float: left;
