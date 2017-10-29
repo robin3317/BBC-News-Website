@@ -455,3 +455,28 @@ h1 a:hover {
 #rss a:hover {
     color: #1167ab;
 }
+#handsOn {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#handsOnTitle {
+    font-size: 25px;
+}
+.handsOnClass {
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+}
+.handsOnClass img {
+    width: 140px;
+    height: 80px;
+}
+.handsOnClass a {
+    text-decoration: none;
+    color: black;
+}
+.handsOnClass a:hover {
+    color: #1167ab;
+}
