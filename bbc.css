@@ -592,3 +592,30 @@ h1 a:hover {
 .fcat a:hover {
     color: #1167A8;
 }
+.ftimerE img {
+    position: relative;
+    left: -3px;
+    top: 35px;
+    float: left;
+}
+.fdesE {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+    position: relative;
+    top: 39px;
+    left: 0px;
+    float: left;
+}
+.fcatE a{
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top: 39px;
+    left: 3px;
+    color: #A91717;
+}
+.fcatE a:hover {
+    color: #1167A8;
+}
