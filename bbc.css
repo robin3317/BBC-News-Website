@@ -476,7 +476,54 @@ h1 a:hover {
 .handsOnClass a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .handsOnClass a:hover {
     color: #1167ab;
+}
+#also {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+    margin-bottom: -50px;
+}
+#alsoTitle {
+    font-size: 25px;
+}
+.alsoClass {
+    width: 305px;
+    float: left;
+}
+.alsoClass a {
+    text-decoration: none;
+    color: black;
+}
+.alsoImg {
+    float: left;
+}
+.alsoClass1 {
+    margin-right: 20px;
+}
+.alsoPara {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 7px;
+}
+.alsoTimer {
+    position: relative;
+    top: -12px;
+    left: 3px;
+}
+.alsoDes {
+    font-size: 13px;
+    float: right;
+    position: relative;
+    top: -57px;
+    left: -24px;
+    color: #5a5a5a;
+}
+.alsoClass a:hover {
+    color: #1167A8;
 }
