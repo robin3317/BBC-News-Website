@@ -527,3 +527,68 @@ h1 a:hover {
 .alsoClass a:hover {
     color: #1167A8;
 }
+#features {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#featuresTitle {
+    font-size: 25px;
+}
+.featuresClass {
+    float: left;
+    width: 200px;
+    height: 230px;
+    margin-right: 20px;
+}
+.ftitle a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+.fsubTitle {
+    text-decoration: none;
+    color: #5a5a5a;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+    float: left;
+}
+.ftimer img {
+    position: relative;
+    left: -3px;
+    top: 25px;
+    float: left;
+}
+.fdes {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+    position: relative;
+    top: 29px;
+    left: 0px;
+    float: left;
+}
+.fimg img {
+    width: 200px;
+}
+.fcat a{
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    left: 3px;
+    color: #A91717;
+}
+.ftitle a:hover {
+    color: #1167A8;
+}
+.fcat a:hover {
+    color: #1167A8;
+}
