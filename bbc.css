@@ -619,3 +619,90 @@ h1 a:hover {
 .fcatE a:hover {
     color: #1167A8;
 }
+#ourExperts {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#expertsTitle {
+    font-size: 25px;
+}
+#endHr3 {
+    width: 640px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#ourExperts {
+    margin-bottom: -15px;
+}
+.expertsDiv {
+    float: left;
+    width: 640px;
+    height: 120px;
+    background: #EDEDED;
+    margin-bottom: 15px;
+}
+.insider {
+    margin: 15px;
+}
+.insider a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.insider a:hover {
+    color: #1167ab;
+}
+.insider p {
+    font-size: 15px;
+    margin-top: 7px;
+    color: #5a5a5a;
+}
+.timerE img{
+    position: relative;
+    top: -9px;
+}
+.dateE {
+    position: relative;
+    top: -14px;
+    left: 2px;
+}
+#anotherDiv {
+    float: left;
+    margin-bottom: 30px;
+}
+#anotherDiv a {
+    text-decoration: none;
+}
+.expertName a {
+    color: #BB4545;
+    margin-left: 25px;
+}
+.expertName a:hover {
+    color: #1167A8;
+}
+.expertDis a {
+    color: #5a5a5a;
+}
+.exImg {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: -111px;
+}
+.exImg2 {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: -107px;
+}
+.angle {
+    position: relative;
+    top: -17px;
+}
