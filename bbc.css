@@ -730,3 +730,41 @@ h1 a:hover {
     width: 205px;
     float: left;
 }
+.techWorldDivImg img {
+    width: 205px;
+}
+.techWorldDivTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 5px 10px 10px;
+    float: left;
+}
+.techWorldDivTitle a:hover {
+    color: #1167ab;
+}
+.techWorldDivTimer img {
+    margin-left: 8px;
+    float: left;
+}
+.techWorldDivDate {
+    text-decoration: none;
+    font-size: 15px;
+    color: #5a5a5a;
+    float: left;
+    margin: 2px 0px 0px 5px;
+}
+.techWorldDivCat {
+    color: #dcdcdc;
+    float: left;
+    margin-left: -14px;
+    margin-top: 5px;
+}
+.techWorldDivCat a {
+    text-decoration: none;
+    color: #A91717;
+    font-size: 15px;
+}
+.techWorldDivCat a:hover {
+    color: #1167A8;
+}
