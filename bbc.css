@@ -706,3 +706,27 @@ h1 a:hover {
     position: relative;
     top: -17px;
 }
+#technologyWorld {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+}
+#techHeader a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#techHeader a:hover {
+    color: #1167A8;
+}
+.techWorldDiv {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+}
+.techWorldDivE {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+}
