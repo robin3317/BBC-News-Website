@@ -811,8 +811,26 @@ h1 a:hover {
     text-decoration: none;
     color: #5a5a5a;
     font-size: 13px;
+    margin-left: -4px;
 }
 #srDate {
     position: relative;
     top: -5px;
+}
+.srDiv {
+    margin-top: 15px;
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+}
+.srDivE {
+    margin-top: 15px;
+    width: 205px;
+    float: left;
+}
+.srDivTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 5px 10px 0px;
 }
