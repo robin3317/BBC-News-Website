@@ -768,3 +768,51 @@ h1 a:hover {
 .techWorldDivCat a:hover {
     color: #1167A8;
 }
+#specialReports {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+}
+#srHeading {
+    font-size: 22px;
+    color: #404040;
+}
+#srImg img {
+    width: 405px;
+}
+#srDivLeft {
+    float: left;
+    width: 200px;
+    margin-right: 27px;
+}
+#srDivRight {
+    float: left;
+    width: 400px;
+}
+#srLink a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    float: left;
+    margin-top: -19px;
+}
+#srLink a:hover {
+    color: #1167ab;
+}
+#srPara {
+    font-size: 17px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+#srPara p {
+    margin-top: 38px;
+}
+#srTimer {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+}
+#srDate {
+    position: relative;
+    top: -5px;
+}
