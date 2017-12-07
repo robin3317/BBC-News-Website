@@ -908,10 +908,38 @@ h1 a:hover {
     text-decoration: none;
     color: white;
 }
+#podcastLeftHeading a:hover {
+    text-decoration: underline;
+}
 #podcastLeftP {
     color: white;
     font-weight: bold;
     font-size: 14px;
     margin-left: 18px;
     margin-top: -15px;
+}
+.podcastRightOne {
+    width: 210px;
+    margin: 7px 0px 3px 12px;
+    float: left;
+}
+.podcastRightOne a {
+    text-decoration: none;
+    color: white;
+}
+.podcastRightOne img {
+    width: 200px;
+}
+.podcastRHeading {
+    font-size: 15.5px;
+}
+.podcastRHeading a:hover {
+    text-decoration: underline;
+}
+.podcastRSub {
+    font-size: 13px;
+    margin-top: -10px;
+}
+.podcastRSub a {
+    color: #BDBDBD;
 }
