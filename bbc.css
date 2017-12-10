@@ -943,3 +943,46 @@ h1 a:hover {
 .podcastRSub a {
     color: #BDBDBD;
 }
+#moreBBCHeading {
+    font-size: 24px;
+}
+.moreBBCDivF {
+    float: left;
+    background-color: #EDEDED;
+    width: 247px;
+    margin-right: 20px;
+    margin-bottom: 17px;
+}
+.moreBBCDivF2 {
+    margin-right: 0px;
+}
+.moreBBCDivFHeading a {
+    color: red;
+    text-decoration: none;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.moreBBCDivFHeading a:hover {
+    color: #1167A8;
+}
+.moreBBCDivFHr {
+    margin: -10px 0px 0px 7px;
+    width: 45px;
+    height: 1px;
+    background-color: red;
+    border: none;
+}
+.moreBBCDivFTitle  {
+    margin: 10px 0px 7px 7px;
+}
+.moreBBCDivFTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.moreBBCDivFTitle a:hover {
+    color: #1167A8;
+}
+.moreBBCDivF img {
+    width: 247px;
+}
