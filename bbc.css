@@ -1059,6 +1059,23 @@ h1 a:hover {
     border: 0px;
     float: left;
     margin-left: 145px;
-    margin-bottom: 20px;
     background-color: #949494;
+}
+#fotter {
+    float: left;
+    margin-left: 145px;
+    margin-top: 0px;
+}
+#fotter p a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 22px;
+}
+#fotter p {
+    color: white;
+    font-size: 14px;
+}
+#fotter p a:hover {
+    text-decoration: underline;
 }
