@@ -1016,3 +1016,49 @@ h1 a:hover {
 .BBCSer a:hover {
     text-decoration: underline;
 }
+#explore {
+    width: 1350px;
+    background-color: #4C4C4C;
+    float: left;
+    border-top: 1px solid #949494;
+    
+}
+.explore2 {
+    margin: 10px 0px 10px 145px;
+}
+#exploreHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.explore3 {
+    margin: 10px 0px 10px 145px;
+    float: left;
+}
+.explore3 a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+.explore3 a:hover {
+    text-decoration: underline;
+}
+.explore4 {
+    border-left: 1px solid #949494;
+    margin-left: 110px;
+    
+}
+.explore4 a {
+    margin-left: 20px;
+}
+#xHr {
+    width: 1050px;
+    height: 1px;
+    border: 0px;
+    float: left;
+    margin-left: 145px;
+    margin-bottom: 20px;
+    background-color: #949494;
+}
